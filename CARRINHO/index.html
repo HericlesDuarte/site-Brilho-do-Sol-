@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header class="menu-principal"> 
+        <main>
+            <div>
+                <div> <!--Logo tipo-->
+                    <img class="logo" src="../HOME/img/logo.png"/>
+                </div> <!--Links redes sociais-->   
+                <div> <!--Logo tipo-->
+                    <a href="../CARRINHO/index.html"><img class="carrinho" src="../HOME/img/car2.png"/></a>
+                </div>         
+            </div>
+        </main>
+    </header> <!-- Menu de paginas-->
+    <main class="barra paginas">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../HOME/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../CATALOGO/index.html">Catálogo</a>
+                    </li>
+                    <li>
+                        <a href="../CONTATO/index.html">Contato</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="redes-sociais">
+            <ul>
+                <li> 
+                    <a href="https://www.facebook.com/brilhodosolbw/" target="_blank">
+                        <img src="../HOME/img/facebook.png" alt=""/>
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://www.instagram.com/brilhodosolbw/?hl=pt-br" target="_blank">
+                        <img src="../HOME/img/instagram.png" alt=""/>
+                    </a>
+                </li>
+                <li>
+                     <a href="https://api.whatsapp.com/message/B3FI2K7NAYRP" target="_blank">
+                         <img src="../HOME/img/whatsapp.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    </main>
+
+    <div class="itens" id="itens"> </div>
+    <div class="total">Total: <span id="total"></span> </div>
+
+    <script src="js/carrinho.js"></script>
+
+    <button class="botao" type="button" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+</body>
+</html>
