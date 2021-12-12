@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Catálogo</title>
+</head>
+<body>
+    <header class="menu-principal"> 
+        <main>
+            <div>
+                <div> <!--Logo e carrinho-->
+                    <img class="logo" src="../HOME/img/logo.png"/>
+                </div>    
+                <div> 
+                    <a href="../CARRINHO/index.html"><img class="carrinho" src="../HOME/img/car2.png"/></a>
+                </div>        
+            </div>
+        </main>
+    </header> 
+    <main class="barra paginas"> <!--Paginas do site-->
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../HOME/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../CATALOGO/index.html">Catálogo</a>
+                    </li>
+                    <li>
+                        <a href="../CONTATO/index.html">Contato</a>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+        <div class="redes-sociais"> <!--Links para redes sociais-->
+            <ul>
+                <li> 
+                    <a href="https://www.facebook.com/brilhodosolbw/" target="_blank">
+                        <img src="../HOME/img/facebook.png" alt=""/>
+                    </a>
+                </li>
+                <li> 
+                    <a href="https://www.instagram.com/brilhodosolbw/?hl=pt-br" target="_blank">
+                        <img src="../HOME/img/instagram.png" alt=""/>
+                    </a>
+                </li>
+                <li>
+                     <a href="https://api.whatsapp.com/message/B3FI2K7NAYRP" target="_blank">
+                         <img src="../HOME/img/whatsapp.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </main>
+<!-------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------->
+    <div class="col-100 bloco-imagens-texto">
+        <div class="content">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-01.jpeg">
+                <p><b>Biquine Modelo 01</b></p>
+                <p><b>R$ 120.50</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd1">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 01', document.getElementById('qtd1').value, '120.50', 1)"> Adicionar </button>
+                
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-02.jpeg">
+                <p><b>Biquine Modelo 02</b></p>
+                <p><b>R$ 135.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd2">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 02', document.getElementById('qtd2').value, '135.00', 2)"> Adicionar </button>
+                
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-03.jpeg">
+                <p><b>Biquine Modelo 03</b></p>
+                <p><b>R$ 150.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd3">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 03', document.getElementById('qtd3').value, '150.00', 3)"> Adicionar </button>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-05.jpeg">
+                <p><b>Biquine Modelo 04</b></p>
+                <p><b>R$ 110.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd4">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 04', document.getElementById('qtd4').value, '110.00', 4)"> Adicionar </button>
+                
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-09.jpeg">
+                <p><b>Biquine Modelo 05</b></p>
+                <p><b>R$ 90.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd5">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 05', document.getElementById('qtd5').value, '90.00', 5)"> Adicionar </button>
+                
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-13.jpeg">
+                <p><b>Biquine Modelo 06</b></p>
+                <p><b>R$ 115.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd6">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 06', document.getElementById('qtd6').value, '115.00', 6)"> Adicionar </button>
+                
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-08.jpeg">
+                <p><b>Biquine Modelo 07</b></p>
+                <p><b>R$ 110.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd7">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 07', document.getElementById('qtd7').value, '110.00', 7)"> Adicionar </button>
+                
+            </div> 
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-10.jpeg">
+                <p><b>Biquine Modelo 08</b></p>
+                <p><b>R$ 180.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd8">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 08', document.getElementById('qtd8').value, '180.00', 8)"> Adicionar </button>
+                
+            </div> 
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-16.jpeg">
+                <p><b>Biquine Modelo 09</b></p>
+                <p><b>R$ 100.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd9">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 09', document.getElementById('qtd9').value, '100.00', 9)"> Adicionar </button>
+                
+            </div>     
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-15.jpeg">
+                <p><b>Biquine Modelo 10</b></p>
+                <p><b>R$ 120.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd10">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 10', document.getElementById('qtd10').value, '120.00', 10)"> Adicionar </button>
+                
+            </div>     
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-07.jpeg">
+                <p><b>Biquine Modelo 11</b></p>
+                <p><b>R$ 110.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd11">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 11', document.getElementById('qtd11').value, '110.00', 11)"> Adicionar </button>
+                
+            </div>     
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/biquini-06.jpeg">
+                <p><b>Biquine Modelo 12</b></p>
+                <p><b>R$ 140.00</b></p>
+                <input class="quantidade" type="number" placeholder="QTD"   id="qtd12">
+	            <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Biquine Modelo 12', document.getElementById('qtd12').value, '140.00', 12)"> Adicionar </button>
+                
+            </div>         
+        </div>
+    </div>
+
+    <script src="js/selec.produto.js"></script>
+
+  
+    
+</body>
+</html>

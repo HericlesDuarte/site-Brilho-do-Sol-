@@ -3,6 +3,11 @@ width: 100%;
 height: 100%;
 margin: 0 auto;
 
+background: url(../../HOME/img/fundo.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 /* ajuste redes sociais */
@@ -25,6 +30,25 @@ padding: 10px;
 width: 70px;
 margin-left: 30px;
 }
+
+.carrinho{
+    float: right;
+    padding: 10px; 
+    width: 70px;
+    margin-right: 150px;
+}
+
+.redes-sociais ul li {
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+    }
+    
+    .redes-sociais{
+    width: 20%;
+    float: right;
+    margin-top: -60px;
+    }
 
 
 
@@ -75,11 +99,6 @@ position: relative;
 .menu-principal { 
 width: 100%;
 height: 90px;
-background: url(../img/ceu.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
 }
 
 
@@ -105,7 +124,7 @@ background-size: cover;
 .bloco-imagem img {
     margin: 0 auto;
     width: 100%;
-    height: 85%;
+    height: 80%;
 }
 .bloco-imagem {
     height: 400px;
@@ -113,7 +132,8 @@ background-size: cover;
     border: 2px solid #0e0a0a;
     padding-top: 10px;
     margin-left: 10px;
-    background-color: #eff4f754;
+    background-color: #e6ddd6cc;
+    border-radius: 15px;
 }
 .bloco-imagem b, p {
     margin: 5px;
@@ -125,12 +145,13 @@ background-size: cover;
 }
 
 
-.caixa{
-    border-radius: 8px;
+.bloco-imagem input, button {
+    width: 80px;
     text-align: center;
+    border-radius: 6px;
+    background-color: rgba(229, 235, 235, 0.733);
 
 }
-
 
 
 

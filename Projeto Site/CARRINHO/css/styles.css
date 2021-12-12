@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+   
+    background: url(../../HOME/img/fundo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    /* ajuste redes sociais */
+    ul{     
+    padding: 0px!important;
+    } 
+    
+    /*ajuste posição na faixa superior*/
+    main, .content{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-color: #e6ddd6;
+    }
+    
+    /*ajuste logo*/
+    .logo{
+    float: left;
+    padding: 10px; 
+    width: 70px;
+    margin-left: 30px;
+    }
+    
+    .carrinho{
+        float: right;
+        padding: 10px; 
+        width: 70px;
+        margin-right: 150px;
+    }
+    
+    .redes-sociais ul li {
+        margin-left: 15px;
+        display: inline-block;
+        list-style: none;
+        }
+        
+        .redes-sociais{
+        width: 20%;
+        float: right;
+        margin-top: -60px;
+        }
+    
+    /* menu secundario */
+    .header-2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    }
+    
+    /* textos das paginas */
+    .menu ul li {
+    display: inline-block;
+    margin-left: 40px; /*espaçamento*/
+    }
+    
+    /* cor ao passar mouse sobre texto*/
+    .menu ul li a:hover {
+    color: #e29731;
+    }
+    
+    /*tamanho e cor do texto*/
+    .menu ul li a {
+    color: #0c1f25;
+    text-decoration: none;
+    font-size: 25px;
+    }
+    
+    /* menu */
+    .menu{
+    width: 100%;
+    float: left;
+    }
+    
+    /* barra do menu */
+    .paginas{
+    height: 60px;
+    border-bottom: 3px solid #0c1f25; /*borda*/
+    }
+        
+    .barra{
+    width: 100%;
+    float: auto;
+    position: relative;
+    }
+    
+    /* menu superior, principal*/
+    .menu-principal { 
+    width: 100%;
+    height: 90px;
+   
+    }
+    /*------------------------------------------------------------------*/
+    /*-----------corpo da pagina----------------------------------------*/
+    /*------------------------------------------------------------------*/
+
+    .botao{
+        background-color: #e6ddd6cc;
+        border-color: #0c1f25;
+        width: 25%;
+        height:  30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: large;
+        
+        
+    }
+
+    .itens{
+        width: 25%;
+        font-size: larger;
+       background-color: rgba(122, 211, 206, 0.816);
+       text-align: center;
+    }
+
+    .total{
+        width: 25%;
+        height:  30px;
+        font-size: larger;
+       background-color: rgba(122, 211, 132, 0.842);
+       text-align: center;
+    }
