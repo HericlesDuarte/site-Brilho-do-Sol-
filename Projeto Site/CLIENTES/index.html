@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <title>Contato</title>
+    <link rel="stylesheet"  href="./css/styles.css">
+    <link rel="stylesheet"  href="./css/main.css">
+    <title>Catálogo</title>
 </head>
 <body>
     <header class="menu-principal"> 
@@ -13,10 +14,10 @@
             <div>
                 <div> <!--Logo e carrinho-->
                     <img class="logo" src="../HOME/img/logo.png"/>
-                </div> 
+                </div>    
                 <div> 
                     <a href="../CARRINHO/index.html"><img class="carrinho" src="../HOME/img/car2.png"/></a>
-                </div>           
+                </div>        
             </div>
         </main>
     </header> 
@@ -59,35 +60,45 @@
             </ul>
         </div>
     </div>
-    <div class="container-a">
-      
-        <b>Deixe seu número e um de nossos vendedores entrará em contato com você.</b>
-        <form>
-
-            <!-- Caixas de texto -->
-            <div class="frm-row">
-                <label for="Nome">Nome</label>
-                <input type="text" name="Nome" id="Nome">
-            </div>
-
-            <div class="frm-row">
-                <label for="Telefone">Telefone</label>
-                <input type="text" name="Telefone" id="Telefone">
-            </div>
-
-            <div class="frm-row">
-                <label for="E-mail">E-mail</label>
-                <input type="text" name="E-mail" id="E-mail">
-            </div>
-
-        </form>
-
-        <button onClick="format()">Enviar</button>
-       
-    </div>
-
-
     </main>
+<!-------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------->
+<button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
+<table id="tableClient" class="records">
+    <thead>
+     
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th>Cidade</th>
+            <th>Ação</th>
+     
+    </thead>
+    <tbody>
 
+    </tbody>
+</table>
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <header class="modal-header">
+            <h2>Novo Cliente</h2>
+            <span class="modal-close" id="modalClose">&#10006;</span>
+        </header>
+        <form id="form" class="modal-form">
+            <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente" required>
+            <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
+            <input type="text" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
+            <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
+        </form>
+        <footer class="modal-footer">
+            <button id="salvar" class="button green">Salvar</button>
+            <button id="cancelar" class="button blue">Cancelar</button>
+        </footer>
+    </div>
+</div>
+    <script src="js/main.js"></script>
+
+  
+    
 </body>
 </html>
