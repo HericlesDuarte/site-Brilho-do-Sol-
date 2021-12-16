@@ -30,7 +30,7 @@ button.red{
 
 
 
-/*modal */ 
+
 
 .modal{
     position: fixed;
@@ -100,8 +100,6 @@ button.red{
     padding: 0 10px;
   
 }
-
-
 
 .modal-footer{
  

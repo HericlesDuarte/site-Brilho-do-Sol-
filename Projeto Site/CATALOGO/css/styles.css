@@ -59,6 +59,11 @@ margin: 0 auto;
 padding: 0px;
 }
 
+.cadastro{
+    text-decoration: none;
+}
+
+
 /* textos das paginas */
 .menu ul li {
 display: inline-block;

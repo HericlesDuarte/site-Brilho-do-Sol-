@@ -32,6 +32,11 @@ body{
     margin-left: 30px;
     }
 
+    .cadastro{
+        text-decoration: none;
+    }
+    
+
     .carrinho{
         float: right;
         padding: 10px; 
